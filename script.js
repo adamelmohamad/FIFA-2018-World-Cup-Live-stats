@@ -1,5 +1,15 @@
 $(document).ready(function(){
+	
+window.onload = function() {
+      registerPageLoadScript();
+}
 
+function registerPageLoadScript() {
+      setTimeout(doNothing, 3000);
+}
+
+function doNothing() {
+}
 
 api = 'https://worldcup.sfg.io/teams/group_results';
 

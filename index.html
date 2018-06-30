@@ -1,103 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-	<script src="script.js"></script>
+	<link rel="stylesheet" href="spinner.css">
 	<meta charset="UTF-8">
-	<title>World Cup 2018</title>
+	<title>FIFA 2018 World Cup</title>
 </head>
 <body>
-<div class="header">
-	<a>FIFA 2018 World Cup</a>
-		<br>
-	<div class="navbar">
-		<a href="index.html">Home</a>
-	<a href="popup.html">My Team</a>
-
+	<div class="container">
+	<div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
 </div>
-	<img src="worldCup.png">
 </div>
-<div class="container">
-	<div id="GroupA">
-		<h2>Group A: </h2>
-		<div class="Team1"></div>
-		<div class="Team2"></div>
-		<div class="Team3"></div>
-		<div class="Team4"></div>
-		<a class="facts" href="facts1.html">Team Facts</a>
-	</div>
 
-	<br>
-	<div id="GroupB">
-		<h3>Group B: </h3>
-		<div class="Team5"></div>
-		<div class="Team6"></div>
-		<div class="Team7"></div>
-		<div class="Team8"></div>
-		<a class="facts" href="facts2.html">Team Facts</a>
-	</div>
+<script>
+
+ setTimeout(function(){
+    $(".container").fadeOut("slow");
+    window.location.href = "index2.html"
+
+
+ },3000);
+
+
+
+</script>
 	
-	<br>
-	<div id="GroupC">
-		<h4>Group C: </h4>
-		<div class="Team9"></div>
-		<div class="Team10"></div>
-		<div class="Team11"></div>
-		<div class="Team12"></div>
-		<a class="facts" href="facts3.html">Team Facts</a>
-
-
-	</div>
-
-	<br>
-
-	<div id="GroupD">
-		<h5>Group D: </h5>
-		<div class="Team13"></div>
-		<div class="Team14"></div>
-		<div class="Team15"></div>
-		<div class="Team16"></div>
-		<a class="facts" href="facts4.html">Team Facts</a>
-
-
-	</div>
-	<br>
-	<div id="GroupE">
-		<h6>Group E: </h6>
-		<div class="Team17"></div>
-		<div class="Team18"></div>
-		<div class="Team19"></div>
-		<div class="Team20"></div>
-		<a class="facts" href="facts5.html">Team Facts</a>
-
-
-	</div>
-	<br>
-	<div id="GroupF">
-		<div class = "h7">Group F: </div>
-		<div class="Team21"></div>
-		<div class="Team22"></div>
-		<div class="Team23"></div>
-		<div class="Team24"></div>
-		<a class="facts" href="facts6.html">Team Facts</a>
-
-	</div>
-	<br>
-	<div id="GroupG">
-		<div class = "h8">Group G: </div>
-		<div class="Team25"></div>
-		<div class="Team26"></div>
-		<div class="Team27"></div>
-		<div class="Team28"></div>
-		<a class="facts" href="facts7.html">Team Facts</a>
-	</div>
-</div>
-</div>
 </body>
 </html>
+
